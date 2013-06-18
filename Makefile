@@ -14,7 +14,7 @@ ROOTDIR      ?= $(dir $(shell pwd))
 RM           ?= rm -f
 CC           ?= $(CROSS)gcc
 
-prefix       ?= /usr/local
+prefix       ?= /usr
 sysconfdir   ?= /etc
 datadir       = $(prefix)/share/doc/mrouted
 mandir        = $(prefix)/share/man/man8
